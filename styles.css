@@ -1,0 +1,40 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #f0f0f0;
+    padding: 20px;
+    text-align: center; /* Center the navigation */
+}
+
+nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #333;
+}
+
+#hero {
+    padding: 50px;
+    text-align: center;
+}
+
+#features {
+    display: flex; /* Arrange features horizontally */
+    justify-content: space-around; /* Distribute space evenly */
+    padding: 50px;
+}
+
+.feature {
+    width: 30%; /* Adjust width as needed */
+    text-align: center;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
